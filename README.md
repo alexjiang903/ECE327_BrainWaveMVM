@@ -12,7 +12,7 @@ A shared input vector is broadcast across parallel output lanes, each containing
 
 # Project Overview
 
-This project came from a digital hardware course I took during the S26 term at the University of Waterloo (ECE 327 - Digital Hardware Systems). For our final lab project, we were tasked with implementing a highly-optimized matrix-vector multiplication (MVM) engine based on Microsoft's 2018 BrainWave project. The final design achieved 53.81 GOPS throughput at 299 MHz through pipelining and parallel output lanes on an AMD Xilinx FPGA.
+This project came from a digital hardware course I took during the S26 term at the University of Waterloo (ECE 327 - Digital Hardware Systems). For the final lab project, we were tasked with implementing a highly-optimized matrix-vector multiplication (MVM) engine based on Microsoft's 2018 BrainWave project. The final design achieved 53.81 GOPS throughput at 299 MHz through pipelining and parallel output lanes on an AMD Xilinx FPGA.
 
 
 A shared input vector is broadcast across parallel output lanes, each containing matrix memory, an 8-element dot-product unit, and an accumulator for computing one output-vector element.
